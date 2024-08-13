@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "fb2rename"
+version = "0.1.0"
+description = ""
+authors = ["Pavel Smirnov <11373544+paulsmirnov@users.noreply.github.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+
+[tool.poetry.group.dev.dependencies]
+ruff = "^0.5.7"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.ruff]
+line-length = 99
