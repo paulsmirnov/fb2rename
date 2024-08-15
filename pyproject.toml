@@ -7,9 +7,15 @@ readme = "README.md"
 
 [tool.poetry.dependencies]
 python = "^3.12"
+lxml = "^5.3.0"
 
 [tool.poetry.group.dev.dependencies]
 ruff = "^0.5.7"
+mypy = "^1.11.1"
+types-lxml = "^2024.8.7"
+
+[tool.poetry.scripts]
+fb2rename = "fb2rename:main"
 
 [build-system]
 requires = ["poetry-core"]
